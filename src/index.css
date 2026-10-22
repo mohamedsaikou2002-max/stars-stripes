@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 16%;
+    --primary: 220 75% 38%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 216 45% 96%;
+    --secondary-foreground: 222 47% 16%;
+    --muted: 216 35% 96%;
+    --muted-foreground: 220 18% 40%;
+    --accent: 217 70% 94%;
+    --accent-foreground: 222 47% 16%;
+    --destructive: 350 75% 43%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 25% 85%;
+    --input: 220 25% 82%;
+    --ring: 220 75% 45%;
+    --radius: 0.75rem;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 16%;
+    --sidebar-primary: 220 75% 38%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 217 70% 94%;
+    --sidebar-accent-foreground: 222 47% 16%;
+    --sidebar-border: 220 25% 85%;
+    --sidebar-ring: 220 75% 45%;
+    --belicia-cyan: 220 75% 45%;
+    --belicia-magenta: 350 75% 48%;
+    --belicia-glow: 220 75% 45%;
+    --gradient-aurora: linear-gradient(120deg, hsl(350 90% 98%), white 38%, white 62%, hsl(217 100% 97%));
+    --shadow-glow: 0 0 32px hsl(220 75% 45% / 0.15);
+  }
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground; font-family: system-ui, -apple-system, sans-serif; background: white; overflow-x: hidden; }
+  header { position: relative; }
+  header::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #c9233e 0%, #fff 50%, #174ba8 100%); }
+}
+@layer utilities {
+  .text-glow { text-shadow: 0 1px 14px hsl(220 75% 45% / 0.08); }
+  .border-glow { box-shadow: var(--shadow-glow); }
+  .bg-glass { background: hsl(0 0% 100% / 0.92); backdrop-filter: blur(20px); border: 1px solid hsl(220 25% 85%); }
+  .civic-gradient { background: linear-gradient(120deg, #fff0f2 0%, #fff 48%, #edf4ff 100%); }
+  .civic-stripe { background: linear-gradient(90deg, #c9233e, #fff 50%, #174ba8); }
+  @keyframes pulse-glow { 0%,100% { opacity: .6; transform: scale(1); } 50% { opacity: 1; transform: scale(1.05); } }
+  .animate-pulse-glow { animation: pulse-glow 2.4s ease-in-out infinite; }
+}

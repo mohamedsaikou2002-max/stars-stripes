@@ -1,0 +1,51 @@
+[
+  {
+    "id": "constitution",
+    "url": "https://constitution.congress.gov/constitution/",
+    "sha256": "ac50651c0fff44b89a227485dbce48ac83676df1bfbf37355baff3d5083c0ba4",
+    "characters": 46775,
+    "passages": 23
+  },
+  {
+    "id": "declaration",
+    "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+    "sha256": "7f912551569d37a80fc895d608d5e69b58dfa820589acbcd87af1958718712eb",
+    "characters": 10367,
+    "passages": 5
+  },
+  {
+    "id": "bill-rights",
+    "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+    "sha256": "e70de34fb05ebc1770e8744dad23f30fbd10de6a75befb1af4883299587ae549",
+    "characters": 9923,
+    "passages": 5
+  },
+  {
+    "id": "amendments",
+    "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+    "sha256": "0a093ad1b6297aa520c77c2dbca0b83dfcff314583551948566d1510d5bae649",
+    "characters": 18589,
+    "passages": 9
+  },
+  {
+    "id": "epictetus",
+    "url": "https://www.gutenberg.org/cache/epub/45109/pg45109.txt",
+    "sha256": "15a09ebd7f782cb64390459a29555140d86fb07f168675d41088a717978c3e4f",
+    "characters": 91071,
+    "passages": 42
+  },
+  {
+    "id": "civil-1983",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap21-subchapI-sec1983.htm",
+    "sha256": "90d28e09705e21ce7402c81ba4f643e0b17e9909157b47ec08d3b8bd5830273b",
+    "characters": 2404,
+    "passages": 2
+  },
+  {
+    "id": "criminal-242",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/html/USCODE-2024-title18-partI-chap13-sec242.htm",
+    "sha256": "4acbd2bafb1433c15da8ad9e6eb209104b221b4928cde0311c3638b0b8644b65",
+    "characters": 4399,
+    "passages": 2
+  }
+]

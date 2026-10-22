@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@noble/post-quantum/": "npm:/@noble/post-quantum@0.7.1/",
+    "@noble/curves/": "npm:/@noble/curves@2.4.0/",
+    "@noble/hashes/": "npm:/@noble/hashes@2.4.0/",
+    "hash-wasm": "npm:hash-wasm@4.12.0"
+  }
+}

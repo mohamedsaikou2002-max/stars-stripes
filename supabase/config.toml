@@ -1,0 +1,54 @@
+project_id = "stars-and-stripes-local"
+
+[functions.chat]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.memory]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.tts]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.pemf-ingest]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.home-bridge]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.daily-brief]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.intel-archive]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.intel-distill]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.eagle-eye]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.mirofish]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.game-theory]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.pod-room]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
+[functions.auth]
+verify_jwt = false  # authenticated in code (_shared/auth.ts); Supabase JWTs are not used
+import_map = "./functions/import_map.json"
+
